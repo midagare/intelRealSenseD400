@@ -12,7 +12,7 @@ g++ -std=c++11 03-imshow-OpenCV.cpp -o imshow -lrealsense2 `pkg-config --cflags 
 g++ -std=c++11 -I/home/miguel/Documents/06Git-Bitbucket/mike/librealsense/wrappers/opencv 04-grabcuts.cpp -o grabcuts -lrealsense2 `pkg-config --libs opencv`
 
 
-g++ -std=c++11 000-saveLR-Image.cpp -o saveLR -lrealsense2 `pkg-config --libs opencv`
+g++ -std=c++11 -I/home/miguel/Documents/06Git-Bitbucket/mike/librealsense/third-party 000-saveLR-Image.cpp -o saveLR -lrealsense2 `pkg-config --libs opencv`
 
 
 
